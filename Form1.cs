@@ -10,12 +10,6 @@ namespace pryanyanyin
             imagen = new Bitmap(pictureBox1.Width, pictureBox1.Height);
         }
 
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
